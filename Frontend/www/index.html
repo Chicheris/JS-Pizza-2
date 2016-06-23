@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+
+    <!-- Bootsrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- LESS основний файл -->
+    <link rel="stylesheet/less" type="text/css" href="assets/less/main.less" />
+    <!-- LESS JavaScript компілятор -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+
+
+</head>
+
+<body>
+    <div id="main-part">
+        <div id='main-menu'>
+            <div id="pizza-kma-container">
+                <div id='pizza-kma'>
+                    <div>
+                        <p>PIZZA</p>
+                        <p><strong>KMA</strong></p>
+                    </div>
+                    <img src="assets/images/discount.svg">
+                </div>
+            </div>
+            <div id='menu-rows'>
+                <p id='row-upper'>
+                    <span id='number' class="col-sm-2 visible-sm visible-md visible-lg">
+                        (044) 222 5 222
+                        </span>
+                    <span id='work-time' class="col-sm-4 visible-md visible-lg">
+                        24 години/ 7 днів на тиждень
+                        </span>
+                    <span id='free-delivery' class='col-sm-4 visible-lg'>
+                        Безкоштовна доставка піци
+                        </span>
+                    <button type="button" class="btn btn-warning" id="login">Ввійти</button>
+                </p>
+                <p id='row-lower'>
+                    <a href='index.html' id='row-lower'>
+                        <span id='pizza-section'>
+                        Піца
+                        </span>
+                    </a>
+                </p>
+            </div>
+
+
+            <div id="right-menu-part">
+                <div id="centered-row">
+                    <span>
+                    <span id='order-size'>
+                        <strong>Замовлення</strong>
+                        <div id='order-size-number'>
+                        0
+                        </div>
+                    </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div id="main-body">
+            <div class="container">
+
+                <div id='whitespace'></div>
+                <p id="all-pizza">Усі піци
+                    <button>0</button>
+                </p>
+                <ul id='filter-menu'>
+                </ul>
+
+
+                <div class="row" id="pizza_list">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="connect"></div>
+    <div id="additional-part">
+        <div id='cart'>
+        </div>
+        <div id="submit">
+            <p>
+                <span class="float-left">Сума замовлення</span>
+                <span class="float-right" id='priceSum'>сума</span>
+            </p>
+            <p>
+                <button type="button" class="btn btn-warning">
+                    Замовити
+                </button>
+            </p>
+        </div>
+    </div>
+    <div id="discount">
+        <img src='assets/images/discount.svg'>
+        <div>
+            <p>Цього тижня на все</p>
+            <span>20%</span>
+        </div>
+    </div>
+
+    <!-- jQuery JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">
+    </script>
+
+    <!--Bootsrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!--Own JavaScript -->
+    s<script type="text/javascript" src="assets/js/main.js">
+    </script>
+</body>
+
+</html>
